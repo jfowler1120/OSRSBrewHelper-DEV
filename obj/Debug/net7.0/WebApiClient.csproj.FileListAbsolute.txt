@@ -1,0 +1,17 @@
+F:\Code\WORKING CODE\NowBingIsHelping\WebApiClient\bin\Debug\net7.0\WebApiClient.exe
+F:\Code\WORKING CODE\NowBingIsHelping\WebApiClient\bin\Debug\net7.0\WebApiClient.deps.json
+F:\Code\WORKING CODE\NowBingIsHelping\WebApiClient\bin\Debug\net7.0\WebApiClient.runtimeconfig.json
+F:\Code\WORKING CODE\NowBingIsHelping\WebApiClient\bin\Debug\net7.0\WebApiClient.dll
+F:\Code\WORKING CODE\NowBingIsHelping\WebApiClient\bin\Debug\net7.0\WebApiClient.pdb
+F:\Code\WORKING CODE\NowBingIsHelping\WebApiClient\obj\Debug\net7.0\WebApiClient.GeneratedMSBuildEditorConfig.editorconfig
+F:\Code\WORKING CODE\NowBingIsHelping\WebApiClient\obj\Debug\net7.0\WebApiClient.AssemblyInfoInputs.cache
+F:\Code\WORKING CODE\NowBingIsHelping\WebApiClient\obj\Debug\net7.0\WebApiClient.AssemblyInfo.cs
+F:\Code\WORKING CODE\NowBingIsHelping\WebApiClient\obj\Debug\net7.0\WebApiClient.csproj.CoreCompileInputs.cache
+F:\Code\WORKING CODE\NowBingIsHelping\WebApiClient\obj\Debug\net7.0\WebApiClient.dll
+F:\Code\WORKING CODE\NowBingIsHelping\WebApiClient\obj\Debug\net7.0\refint\WebApiClient.dll
+F:\Code\WORKING CODE\NowBingIsHelping\WebApiClient\obj\Debug\net7.0\WebApiClient.pdb
+F:\Code\WORKING CODE\NowBingIsHelping\WebApiClient\obj\Debug\net7.0\WebApiClient.genruntimeconfig.cache
+F:\Code\WORKING CODE\NowBingIsHelping\WebApiClient\obj\Debug\net7.0\ref\WebApiClient.dll
+F:\Code\WORKING CODE\NowBingIsHelping\WebApiClient\bin\Debug\net7.0\Newtonsoft.Json.dll
+F:\Code\WORKING CODE\NowBingIsHelping\WebApiClient\obj\Debug\net7.0\WebApiClient.csproj.AssemblyReference.cache
+F:\Code\WORKING CODE\NowBingIsHelping\WebApiClient\obj\Debug\net7.0\WebApiClient.csproj.CopyComplete
