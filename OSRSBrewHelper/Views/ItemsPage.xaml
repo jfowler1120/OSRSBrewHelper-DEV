@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OSRSBrewHelper.Views.ItemsPage"
+             Title="{Binding Title}"
+             xmlns:local="clr-namespace:OSRSBrewHelper.ViewModels"  
+             xmlns:model="clr-namespace:OSRSBrewHelper.Models"  
+             x:Name="BrowseItemsPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Reset" Command="{Binding AddItemCommand}" />
+    </ContentPage.ToolbarItems>
+    <!--
+      x:DataType enables compiled bindings for better performance and compile time validation of binding expressions.
+      https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/data-binding/compiled-bindings
+    -->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row ="1" Grid.Column="0" Text="Farming level" FontSize="16" Padding="10,0,0,0" VerticalOptions="Center"/>
+        <Image Grid.Row ="1" Grid.Column="1" Margin="0,0,80,0" Source="Farming_Icon.png" VerticalOptions="Center" HeightRequest="32" />
+        <Entry x:Name="farmingLevelEntry"  Grid.Row ="1" Grid.Column="2" MaxLength ="3" Keyboard="Numeric" ReturnType="Next" IsSpellCheckEnabled="False" IsTextPredictionEnabled="False"/>
+        <Label Grid.Row ="2" Grid.Column="0" Text="Cooking level" FontSize="16" Padding="10,0,0,0" VerticalOptions="Center"/>
+        <Image Grid.Row ="2" Grid.Column="1" Margin="0,0,80,0" Source="Cooking_Icon.png" VerticalOptions="Center" HeightRequest="32" />
+        <Entry x:Name="cookingLevelEntry" Grid.Row ="2" Grid.Column="2" MaxLength ="3" Keyboard="Numeric" ReturnType="Next" IsSpellCheckEnabled="False" IsTextPredictionEnabled="False"/>
+        <Label Grid.Row="3" Grid.ColumnSpan="2" Text="I will purchase all ingredients:" FontSize="16" Padding="10,0,0,0" VerticalOptions="Center"></Label>
+        <RadioButton x:Name="purchaseIngredientsRadioButton" Grid.Row="3" Grid.Column="2" GroupName="Purchase"></RadioButton>
+        <Label Grid.Row="4" Grid.ColumnSpan="2" Text="I will grow all ingredients:" FontSize="16" Padding="10,0,0,0" VerticalOptions="Center"></Label>
+        <RadioButton x:Name="growIngredientsRadioButton" Grid.Row="4" Grid.Column="2" GroupName="Purchase"></RadioButton>
+        <Button Grid.Row ="5" Grid.ColumnSpan="3" Margin="0,0,0,0" Text="Calculate"
+                        Command="{Binding OpenWebCommand}"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White" />
+    </Grid>
+</ContentPage>
